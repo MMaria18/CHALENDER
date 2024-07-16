@@ -9,6 +9,34 @@
 .calender{
     display: grid;
     grid-template-columns: repeat(7,1fr);
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 20px repeat(6,50px);
+   
+
+
+}
+.date,.day{
+    background-color: aquamarine;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* height: 50px; */
+    align-items:center ;
+    font-size: 1.5em;
+   
+ 
+    
+}
+.day{
+    background-color: rgb(189, 179, 179);
+    font-size: 1em;
+}
+
+h2
+{
+    text-align: center;
 }
 
 </style>
@@ -16,7 +44,15 @@
 
 </head>
 <body>
+    <h2>My Calender</h2>
     <div class="calender">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
        
         <div class="date">1</div>
         <div class="date">2</div>
